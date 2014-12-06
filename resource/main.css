@@ -1,0 +1,187 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family:Trebuchet MS,Liberation Sans,DejaVu Sans,sans-serif;
+}
+
+div
+{
+
+}
+
+#head
+{
+    height: 150px;
+    padding-left: 160px;
+}
+
+#navigation
+{
+    height: 43px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #575757;
+}
+
+#main_nav
+{
+    float: left;
+    height: inherit;
+}
+
+#main_nav ul
+{
+    float: left;
+    margin: 0 0 3em 0;
+    padding: 0;
+    list-style: none;
+}
+
+#main_nav ul li
+{
+    float: left;
+}
+
+#main_nav ul li a
+{
+    display: block;
+    text-align:center;
+    height:inherit;
+    padding: 10px 17px;
+    color: #9D9D9D;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+#main_nav ul li a:hover
+{
+    color: #FFFFFF;
+    background-color: #6A6A6A;
+}
+
+#user_log
+{
+    float: right;
+    padding: 10px 15px;
+    color: #FFFFFF;
+}
+
+#user_log a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#user_log a:hover
+{
+    color: #FFFFFF;
+}
+
+#blog_body
+{
+    margin: auto;
+    width: 1050px;
+}
+
+#blogs
+{
+    float: left;
+    width: 69%;
+    padding: 5px;
+}
+
+#blogs ul
+{
+    list-style-type: none;
+}
+
+#blogs ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.blog
+{
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid #D7D7D7;
+}
+
+.blog_detail
+{
+    width: 100%;
+    height: 500px;
+    border-bottom: 1px solid #D7D7D7;
+}
+
+.blog:hover
+{
+    width: 100%;
+    height: 150px;
+    background-color: #F5F7F9;
+}
+
+.blog_head
+{
+    padding: 12px;
+    width: 100%;
+    height: 45px;
+}
+
+.blog_bullet
+{
+    float:left;
+}
+
+.blog_sub
+{
+    padding: 0px 10px 10px 20px;
+    float:left;
+}
+
+.blog_text
+{
+    padding:15px 5px 15px 50px;
+}
+
+#blog_detail_text
+{
+    padding:15px 5px 15px 50px;
+}
+
+#login_form
+{
+    float: left;
+    width: 49%;
+    height: 400px;
+    padding: 110px;
+}
+
+#login
+{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#links
+{
+    float: right;
+    width:25%;
+    padding: 16px;
+    padding-left:30px;
+    background-color: aqua;
+}
+
+#links ul
+{
+    list-style-type: none;
+}
+
+#footer
+{
+    width: 100%;
+    height: 70px;
+    background-color: #575757;
+}
